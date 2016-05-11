@@ -1,0 +1,68 @@
+{
+  "time" : {
+    "start" : 1462985312143,
+    "stop" : 1462985391238,
+    "duration" : 79095
+  },
+  "testSuites" : [ {
+    "uid" : "d5f4df594bd660ad",
+    "name" : "mebius.hls.seleniumtest.TabletTest",
+    "title" : "Тестирование веб-интерфейса раздела планшетов яндекс.маркета",
+    "time" : {
+      "start" : 1462985350013,
+      "stop" : 1462985391238,
+      "duration" : 41225
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "cff37c29813ab514",
+      "name" : "testTablets",
+      "title" : "Планшеты",
+      "time" : {
+        "start" : 1462985350013,
+        "stop" : 1462985391238,
+        "duration" : 41225
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "27c7cd08c05b573d",
+    "name" : "mebius.hls.seleniumtest.LaptopTest",
+    "title" : "Тестирование веб-интерфейса раздела ноутбуков яндекс.маркета",
+    "time" : {
+      "start" : 1462985312143,
+      "stop" : 1462985350009,
+      "duration" : 37866
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "e0d1bacb7a766ddc",
+      "name" : "testLaptops",
+      "title" : "Ноутбуки",
+      "time" : {
+        "start" : 1462985312143,
+        "stop" : 1462985350009,
+        "duration" : 37866
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

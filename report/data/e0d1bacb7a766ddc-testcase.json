@@ -1,0 +1,212 @@
+{
+  "uid" : "e0d1bacb7a766ddc",
+  "name" : "testLaptops",
+  "title" : "Ноутбуки",
+  "time" : {
+    "start" : 1462985312143,
+    "stop" : 1462985350009,
+    "duration" : 37866
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 11
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "27c7cd08c05b573d",
+    "name" : "mebius.hls.seleniumtest.LaptopTest",
+    "title" : "Тестирование веб-интерфейса раздела ноутбуков яндекс.маркета"
+  },
+  "steps" : [ {
+    "name" : "openStartingPage",
+    "title" : "Переход на главную страницу яндекса",
+    "time" : {
+      "start" : 1462985321633,
+      "stop" : 1462985323523,
+      "duration" : 1890
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goToMarketSubDepartment[Компьютеры, Ноутбуки]",
+    "title" : "Переход в раздел маркета Компьютеры, подраздел Ноутбуки",
+    "time" : {
+      "start" : 1462985323527,
+      "stop" : 1462985330467,
+      "duration" : 6940
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "applySearchFilters[, 30000, [gf-1801946-1870091, gf-1801946-1871127]]",
+    "title" : "Установка значений поисковых фильтров",
+    "time" : {
+      "start" : 1462985330469,
+      "stop" : 1462985342927,
+      "duration" : 12458
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 4
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "setToPriceFilter[30000]",
+      "title" : "Установка верхнего значения цены: 30000",
+      "time" : {
+        "start" : 1462985333019,
+        "stop" : 1462985337741,
+        "duration" : 4722
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkVendors[[gf-1801946-1870091, gf-1801946-1871127]]",
+      "title" : "Выбор производителей",
+      "time" : {
+        "start" : 1462985339474,
+        "stop" : 1462985339910,
+        "duration" : 436
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 2
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ {
+        "name" : "checkVendor[gf-1801946-1870091]",
+        "title" : "id = gf-1801946-1870091",
+        "time" : {
+          "start" : 1462985339475,
+          "stop" : 1462985339733,
+          "duration" : 258
+        },
+        "summary" : {
+          "attachments" : 0,
+          "steps" : 0
+        },
+        "status" : "PASSED",
+        "attachments" : [ ],
+        "steps" : [ ]
+      }, {
+        "name" : "checkVendor[gf-1801946-1871127]",
+        "title" : "id = gf-1801946-1871127",
+        "time" : {
+          "start" : 1462985339734,
+          "stop" : 1462985339910,
+          "duration" : 176
+        },
+        "summary" : {
+          "attachments" : 0,
+          "steps" : 0
+        },
+        "status" : "PASSED",
+        "attachments" : [ ],
+        "steps" : [ ]
+      } ]
+    } ]
+  }, {
+    "name" : "checkNumberOfSearchResults[10]",
+    "title" : "Проверка количества найденных товаров на странице. Должно быть 10",
+    "time" : {
+      "start" : 1462985342929,
+      "stop" : 1462985342956,
+      "duration" : 27
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getFirstResultTitle",
+    "title" : "Запоминаем наименование первого товара",
+    "time" : {
+      "start" : 1462985342957,
+      "stop" : 1462985342999,
+      "duration" : 42
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "searchFor[Lenovo IdeaPad 100 15]",
+    "title" : "Поиск: Lenovo IdeaPad 100 15",
+    "time" : {
+      "start" : 1462985343001,
+      "stop" : 1462985348606,
+      "duration" : 5605
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkProductTitleEqualityToString[Lenovo IdeaPad 100 15]",
+    "title" : "Проверка сответствия имени товара значению Lenovo IdeaPad 100 15",
+    "time" : {
+      "start" : 1462985348607,
+      "stop" : 1462985348636,
+      "duration" : 29
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "HLS64"
+  }, {
+    "name" : "thread",
+    "value" : "9800@HLS64.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "mebius.hls.seleniumtest.LaptopTest"
+  }, {
+    "name" : "suite-title",
+    "value" : "Тестирование веб-интерфейса раздела ноутбуков яндекс.маркета"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

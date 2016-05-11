@@ -1,0 +1,31 @@
+{
+  "hosts" : [ {
+    "title" : "HLS64",
+    "threads" : [ {
+      "title" : "9800@HLS64.main(1)",
+      "testCases" : [ {
+        "uid" : "cff37c29813ab514",
+        "name" : "testTablets",
+        "title" : "Планшеты",
+        "time" : {
+          "start" : 1462985350013,
+          "stop" : 1462985391238,
+          "duration" : 41225
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e0d1bacb7a766ddc",
+        "name" : "testLaptops",
+        "title" : "Ноутбуки",
+        "time" : {
+          "start" : 1462985312143,
+          "stop" : 1462985350009,
+          "duration" : 37866
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
